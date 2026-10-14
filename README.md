@@ -1,2 +1,14 @@
-# Arduino-Based-Anti-Sleeping-Glasses-for-Driver-Safety
-Developed an Arduino-based driver drowsiness detection system using an eye sensor to monitor eye closure. When the driver's eyes remain closed for a predefined duration (e.g., one second), the system triggers an audible alarm up to three times and initiates a braking mechanism to help prevent accidents.
+# Arduino-Based Anti-Sleeping Glasses for Driver Safety
+
+This project demonstrates a simple driver drowsiness detection prototype using **Arduino Nano**.
+
+## Components Used
+- Arduino Nano
+- IR sensors (for eye-blink/eye-closure detection)
+- Buzzer (alarm alert)
+- DC motor (used to demonstrate the wheel behavior)
+
+## How It Works
+The IR sensors monitor the driver's eye status.  
+If the eyes remain closed for a short period, the buzzer sounds to alert the driver.  
+If drowsiness continues, the motor is used to demonstrate wheel control as part of the safety response.
